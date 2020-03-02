@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C29C05F-B38B-4A15-8AD2-C96DE5C3622B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GerarCargaDez</RootNamespace>
+    <AssemblyName>GerarCargaDez</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_truck.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core, Version=1.9.6.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Windows.1.9.7.1\lib\net40\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.9.6.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Windows.1.9.7.1\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation, Version=1.9.6.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.Windows.1.9.7.1\lib\net40\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.10.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.10.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Icons8.UI, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Icons8.UI.0.2.0\lib\net40\Icons8.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.18\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.5.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.112.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.112.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.112.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\CoreEtiqueta.cs" />
+    <Compile Include="Core\CoreViaSoft.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Telas\Comercial\PreLoaderC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Telas\Comercial\PreLoaderC.Designer.cs">
+      <DependentUpon>PreLoaderC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Estoque\Inventario\Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Estoque\Inventario\Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\Consulta\Ordem\ConsultaOrdem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\Consulta\Ordem\ConsultaOrdem.Designer.cs">
+      <DependentUpon>ConsultaOrdem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\Consulta\Ordem\Controller\OrdemController.cs" />
+    <Compile Include="Telas\Etiqueta\Consulta\Ordem\Dao\OrdemDao.cs" />
+    <Compile Include="Telas\Etiqueta\Consulta\Ordem\Model\OrdemModel.cs" />
+    <Compile Include="Telas\Etiqueta\Consulta\Sequencia\ConsultaSequencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\Consulta\Sequencia\ConsultaSequencia.Designer.cs">
+      <DependentUpon>ConsultaSequencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\Consulta\Sequencia\Controller\SequenciaController.cs" />
+    <Compile Include="Telas\Etiqueta\Consulta\Sequencia\Dao\SequenciaDao.cs" />
+    <Compile Include="Telas\Etiqueta\Consulta\Sequencia\Model\SequenciaModel.cs" />
+    <Compile Include="Telas\Etiqueta\Models\ModeloZebra.cs" />
+    <Compile Include="Telas\Etiqueta\Models\RawPrinterHelper.cs" />
+    <Compile Include="Telas\Etiqueta\NovaEtiqueta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\NovaEtiqueta.Designer.cs">
+      <DependentUpon>NovaEtiqueta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\QuantidadeImpressao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Etiqueta\QuantidadeImpressao.Designer.cs">
+      <DependentUpon>QuantidadeImpressao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\Autorizacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Expedicao\Autorizacao.Designer.cs">
+      <DependentUpon>Autorizacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\Banco\DataSetRomaneio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRomaneio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\EmiteRomaneio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Expedicao\EmiteRomaneio.Designer.cs">
+      <DependentUpon>EmiteRomaneio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\ListarEmbarques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Expedicao\ListarEmbarques.Designer.cs">
+      <DependentUpon>ListarEmbarques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\MudaStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Expedicao\MudaStatus.Designer.cs">
+      <DependentUpon>MudaStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Expedicao\Relatorio\TelaDeImpressao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Expedicao\Relatorio\TelaDeImpressao.Designer.cs">
+      <DependentUpon>TelaDeImpressao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Fiscal\AcompanhamentoFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Fiscal\AcompanhamentoFiscal.Designer.cs">
+      <DependentUpon>AcompanhamentoFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Fiscal\DetalhamentoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Fiscal\DetalhamentoPedido.Designer.cs">
+      <DependentUpon>DetalhamentoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Home\Aniversariantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Home\Aniversariantes.Designer.cs">
+      <DependentUpon>Aniversariantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Home\Consulta\Ramais\Controller\RamaisController.cs" />
+    <Compile Include="Telas\Home\Consulta\Ramais\Dao\RamaisDao.cs" />
+    <Compile Include="Telas\Home\Consulta\Ramais\Model\RamaisModel.cs" />
+    <Compile Include="Telas\Home\Ramais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Home\Ramais.Designer.cs">
+      <DependentUpon>Ramais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\AlocaItemPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\AlocaItemPedido.Designer.cs">
+      <DependentUpon>AlocaItemPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\AlocaTotalPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\AlocaTotalPedido.Designer.cs">
+      <DependentUpon>AlocaTotalPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\CalculoPeso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\CalculoPeso.Designer.cs">
+      <DependentUpon>CalculoPeso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\ConsultaPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\ConsultaPedido.Designer.cs">
+      <DependentUpon>ConsultaPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\Consulta\Embarque\Controller\EmbarqueController.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Embarque\Dao\EmbarqueDao.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Embarque\Model\EmbarqueModel.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Pedido\Controller\PedidoController.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Pedido\Dao\PedidoDao.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Pedido\Model\PedidoModel.cs" />
+    <Compile Include="Telas\Logistica\ManutencaoEmbarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\ManutencaoEmbarque.Designer.cs">
+      <DependentUpon>ManutencaoEmbarque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\PesquisaEmbarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\PesquisaEmbarque.Designer.cs">
+      <DependentUpon>PesquisaEmbarque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\Consulta\Transportador\Controller\TransportadorController.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Transportador\Dao\TransportadorDao.cs" />
+    <Compile Include="Telas\Logistica\Consulta\Transportador\Model\TransportadorModel.cs" />
+    <Compile Include="Telas\Logistica\DialogLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\DialogLoader.Designer.cs">
+      <DependentUpon>DialogLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\InclusaoEmbarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\InclusaoEmbarque.Designer.cs">
+      <DependentUpon>InclusaoEmbarque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\MapaDePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\MapaDePedidos.Designer.cs">
+      <DependentUpon>MapaDePedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\MontarCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\MontarCarga.Designer.cs">
+      <DependentUpon>MontarCarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\PesquisaTransportador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\PesquisaTransportador.Designer.cs">
+      <DependentUpon>PesquisaTransportador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Logistica\PreLoader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\PreLoader.Designer.cs">
+      <DependentUpon>PreLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Comercial\ImportarPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Comercial\ImportarPedidos.Designer.cs">
+      <DependentUpon>ImportarPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telas\Logistica\VerificaAlocacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Logistica\VerificaAlocacao.Designer.cs">
+      <DependentUpon>VerificaAlocacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Painel\ExibicaoPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Painel\ExibicaoPedidos.Designer.cs">
+      <DependentUpon>ExibicaoPedidos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Telas\Comercial\PreLoaderC.resx">
+      <DependentUpon>PreLoaderC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Estoque\Inventario\Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Etiqueta\Consulta\Ordem\ConsultaOrdem.resx">
+      <DependentUpon>ConsultaOrdem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Etiqueta\Consulta\Sequencia\ConsultaSequencia.resx">
+      <DependentUpon>ConsultaSequencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Etiqueta\NovaEtiqueta.resx">
+      <DependentUpon>NovaEtiqueta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Etiqueta\QuantidadeImpressao.resx">
+      <DependentUpon>QuantidadeImpressao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Expedicao\Autorizacao.resx">
+      <DependentUpon>Autorizacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Expedicao\EmiteRomaneio.resx">
+      <DependentUpon>EmiteRomaneio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Expedicao\ListarEmbarques.resx">
+      <DependentUpon>ListarEmbarques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Expedicao\MudaStatus.resx">
+      <DependentUpon>MudaStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Expedicao\Relatorio\RomaneioDeCarga_.rdlc" />
+    <EmbeddedResource Include="Telas\Expedicao\Relatorio\RomaneioDeCarga.rdlc" />
+    <EmbeddedResource Include="Telas\Expedicao\Relatorio\TelaDeImpressao.resx">
+      <DependentUpon>TelaDeImpressao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Fiscal\AcompanhamentoFiscal.resx">
+      <DependentUpon>AcompanhamentoFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Fiscal\DetalhamentoPedido.resx">
+      <DependentUpon>DetalhamentoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Home\Aniversariantes.resx">
+      <DependentUpon>Aniversariantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Home\Ramais.resx">
+      <DependentUpon>Ramais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\AlocaItemPedido.resx">
+      <DependentUpon>AlocaItemPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\AlocaTotalPedido.resx">
+      <DependentUpon>AlocaTotalPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\CalculoPeso.resx">
+      <DependentUpon>CalculoPeso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\ConsultaPedido.resx">
+      <DependentUpon>ConsultaPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\DialogLoader.resx">
+      <DependentUpon>DialogLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\InclusaoEmbarque.resx">
+      <DependentUpon>InclusaoEmbarque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\ManutencaoEmbarque.resx">
+      <DependentUpon>ManutencaoEmbarque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\MapaDePedidos.resx">
+      <DependentUpon>MapaDePedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\MontarCarga.resx">
+      <DependentUpon>MontarCarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\PesquisaEmbarque.resx">
+      <DependentUpon>PesquisaEmbarque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\PesquisaTransportador.resx">
+      <DependentUpon>PesquisaTransportador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Logistica\PreLoader.resx">
+      <DependentUpon>PreLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Comercial\ImportarPedidos.resx">
+      <DependentUpon>ImportarPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Telas\Logistica\VerificaAlocacao.resx">
+      <DependentUpon>VerificaAlocacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Painel\ExibicaoPedidos.resx">
+      <DependentUpon>ExibicaoPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Telas\Expedicao\Banco\DataSetRomaneio.xsc">
+      <DependentUpon>DataSetRomaneio.xsd</DependentUpon>
+    </None>
+    <None Include="Telas\Expedicao\Banco\DataSetRomaneio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRomaneio.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Telas\Expedicao\Banco\DataSetRomaneio.xss">
+      <DependentUpon>DataSetRomaneio.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\149054.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a-icon-031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1490541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1490542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2358611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator_51221x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator_51221x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_32px.png" />
+    <Content Include="icons8_truck.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net46\System.Data.SQLite.Core.targets')" />
+</Project>

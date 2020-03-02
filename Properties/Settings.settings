@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GerarCargaDez.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="host_oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.69.0.153</Value>
+    </Setting>
+    <Setting Name="port_oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1522</Value>
+    </Setting>
+    <Setting Name="sv_oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEZ6297</Value>
+    </Setting>
+    <Setting Name="user_oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VIASOFT</Value>
+    </Setting>
+    <Setting Name="pass_oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VIASOFT</Value>
+    </Setting>
+    <Setting Name="host_mysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="db_mysql" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cargadez</Value>
+    </Setting>
+    <Setting Name="user_mysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="pass_mysql" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="host_portall" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.0.242</Value>
+    </Setting>
+    <Setting Name="db_portall" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PortAll</Value>
+    </Setting>
+    <Setting Name="user_portall" Type="System.String" Scope="User">
+      <Value Profile="(Default)">portall</Value>
+    </Setting>
+    <Setting Name="pass_portall" Type="System.String" Scope="User">
+      <Value Profile="(Default)">max10112012</Value>
+    </Setting>
+    <Setting Name="googlekey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AIzaSyBWg9zi_cLdFZepna2g4KLi36CcfVhRSL4</Value>
+    </Setting>
+    <Setting Name="bloq_saldo" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="senha_exp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">@exped#$</Value>
+    </Setting>
+    <Setting Name="finalidadeUsuario" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="asseptico" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="lote_fixo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UNICO</Value>
+    </Setting>
+    <Setting Name="grupoQualidade" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CX</Value>
+    </Setting>
+    <Setting Name="usa_cx" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="db_mysql_etiqueta" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">etiqueta2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "125",
+               "short_name" : "125",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rua Major Gustavo Adolfo Storch",
+               "short_name" : "R. Maj. Gustavo Adolfo Storch",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Vila Virginia",
+               "short_name" : "Vila Virginia",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Jundiaí",
+               "short_name" : "Jundiaí",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "São Paulo",
+               "short_name" : "SP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "13209-080",
+               "short_name" : "13209-080",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. Maj. Gustavo Adolfo Storch, 125 - Vila Virginia, Jundiaí - SP, 13209-080, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.1861001,
+               "lng" : -46.8972448
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.18475111970849,
+                  "lng" : -46.8958958197085
+               },
+               "southwest" : {
+                  "lat" : -23.1874490802915,
+                  "lng" : -46.8985937802915
+               }
+            }
+         },
+         "place_id" : "ChIJ3abua4Qmz5QRmQKTAJ67KsE",
+         "plus_code" : {
+            "compound_code" : "R473+H4 Jundiaí, State of São Paulo, Brazil",
+            "global_code" : "588MR473+H4"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

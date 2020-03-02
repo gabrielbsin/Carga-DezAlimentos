@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rua Oito",
+               "short_name" : "R. Oito",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Vila Nova",
+               "short_name" : "Vila Nova",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Vila Velha",
+               "short_name" : "Vila Velha",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Espírito Santo",
+               "short_name" : "ES",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "29105-162",
+               "short_name" : "29105-162",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. Oito - Vila Nova, Vila Velha - ES, 29105-162, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -20.3637419,
+                  "lng" : -40.3084637
+               },
+               "southwest" : {
+                  "lat" : -20.3644437,
+                  "lng" : -40.3129505
+               }
+            },
+            "location" : {
+               "lat" : -20.3642937,
+               "lng" : -40.3123034
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -20.36274381970849,
+                  "lng" : -40.3084637
+               },
+               "southwest" : {
+                  "lat" : -20.3654417802915,
+                  "lng" : -40.3129505
+               }
+            }
+         },
+         "place_id" : "EixSLiBPaXRvIC0gVmlsYSBOb3ZhLCBWaWxhIFZlbGhhIC0gRVMsIEJyYXppbCIuKiwKFAoSCZfK4VkCPrgAEa5a2jar88w7EhQKEgk77AIKAz64ABEfh6GO3F8mHQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

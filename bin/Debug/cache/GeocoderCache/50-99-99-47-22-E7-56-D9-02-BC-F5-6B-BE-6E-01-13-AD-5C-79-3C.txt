@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rua Sete de Setembro",
+               "short_name" : "R. Sete de Setembro",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. Sete de Setembro, Morrinhos - GO, 75650-000, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -17.7214881,
+                  "lng" : -49.1066613
+               },
+               "southwest" : {
+                  "lat" : -17.7435434,
+                  "lng" : -49.1158224
+               }
+            },
+            "location" : {
+               "lat" : -17.7318625,
+               "lng" : -49.11068239999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.7214881,
+                  "lng" : -49.1066613
+               },
+               "southwest" : {
+                  "lat" : -17.7435434,
+                  "lng" : -49.1158224
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ13xTghKUoJQRUn-BI8jlISQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,74 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "430",
+               "short_name" : "430",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rua Simeão Aguiar",
+               "short_name" : "R. Simeão Aguiar",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Novo Paraíso",
+               "short_name" : "Novo Paraíso",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Aracaju",
+               "short_name" : "Aracaju",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sergipe",
+               "short_name" : "SE",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "49085-410",
+               "short_name" : "49085-410",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. Simeão Aguiar, 430 - Novo Paraíso, Aracaju - SE, 49085-410, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -10.9064124,
+                  "lng" : -37.0870706
+               },
+               "southwest" : {
+                  "lat" : -10.9077372,
+                  "lng" : -37.08853149999999
+               }
+            },
+            "location" : {
+               "lat" : -10.907326,
+               "lng" : -37.087548
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -10.9057258197085,
+                  "lng" : -37.0864520697085
+               },
+               "southwest" : {
+                  "lat" : -10.9084237802915,
+                  "lng" : -37.0891500302915
+               }
+            }
+         },
+         "place_id" : "ChIJXzrFj_yyGgcROzKs5R_djdc",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

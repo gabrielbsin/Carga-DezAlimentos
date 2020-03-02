@@ -1,0 +1,74 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sria II Pólo de Moda Rua 24",
+               "short_name" : "Sria II Pólo de Moda Rua 24",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "SRIA II (Polo de Moda)",
+               "short_name" : "SRIA II (Polo de Moda)",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "Guará",
+               "short_name" : "Guará",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Brasília",
+               "short_name" : "Brasília",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Distrito Federal",
+               "short_name" : "DF",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "70297-400",
+               "short_name" : "70297-400",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sria II Pólo de Moda Rua 24 - SRIA II (Polo de Moda) - Guará, Brasília - DF, 70297-400, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -15.8509062,
+                  "lng" : -47.9770659
+               },
+               "southwest" : {
+                  "lat" : -15.851422,
+                  "lng" : -47.97746249999999
+               }
+            },
+            "location" : {
+               "lat" : -15.8511731,
+               "lng" : -47.9772064
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -15.8498151197085,
+                  "lng" : -47.9759152197085
+               },
+               "southwest" : {
+                  "lat" : -15.8525130802915,
+                  "lng" : -47.9786131802915
+               }
+            }
+         },
+         "place_id" : "ChIJ90xSjDwuWpMR90ryOnZ_O1k",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

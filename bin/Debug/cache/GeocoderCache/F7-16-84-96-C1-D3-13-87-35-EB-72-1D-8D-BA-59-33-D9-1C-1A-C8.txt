@@ -1,0 +1,59 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Aparecida de Goiânia",
+               "short_name" : "Aparecida de Goiânia",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Aparecida de Goiânia",
+               "short_name" : "Aparecida de Goiânia",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "State of Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Aparecida de Goiânia, State of Goiás, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -16.7321039,
+                  "lng" : -49.1747083
+               },
+               "southwest" : {
+                  "lat" : -16.8593418,
+                  "lng" : -49.3847575
+               }
+            },
+            "location" : {
+               "lat" : -16.820257,
+               "lng" : -49.2473044
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.7321039,
+                  "lng" : -49.1747083
+               },
+               "southwest" : {
+                  "lat" : -16.8593418,
+                  "lng" : -49.3847575
+               }
+            }
+         },
+         "place_id" : "ChIJbTnJvNT7XpMR6OSovFrMjhM",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

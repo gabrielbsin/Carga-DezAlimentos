@@ -1,0 +1,53 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Polo Empresarial de Goiás",
+               "short_name" : "Polo Empresarial de Goiás",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "74983-900",
+               "short_name" : "74983-900",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Rua 01 QD 01 LT 02 - Polo Empresarial de Goiás, GO, 74983-900, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -16.7868259,
+               "lng" : -49.2535739
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.7854769197085,
+                  "lng" : -49.2522249197085
+               },
+               "southwest" : {
+                  "lat" : -16.7881748802915,
+                  "lng" : -49.2549228802915
+               }
+            }
+         },
+         "place_id" : "ChIJr0n7jEv6XpMRJo_7d3x_A_g",
+         "plus_code" : {
+            "compound_code" : "6P7W+7H Polo Empresarial de Goiás, Aparecida de Goiânia - State of Goiás, Brazil",
+            "global_code" : "58MG6P7W+7H"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

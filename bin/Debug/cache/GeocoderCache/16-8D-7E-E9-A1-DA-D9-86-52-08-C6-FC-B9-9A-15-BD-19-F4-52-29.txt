@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Avenida Del Mar",
+               "short_name" : "Av. Del Mar",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Interlagos",
+               "short_name" : "Interlagos",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Vila Velha",
+               "short_name" : "Vila Velha",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Espírito Santo",
+               "short_name" : "ES",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "29126",
+               "short_name" : "29126",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Av. Del Mar - Interlagos, Vila Velha - ES, 29126, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -20.474445,
+                  "lng" : -40.3500659
+               },
+               "southwest" : {
+                  "lat" : -20.4753792,
+                  "lng" : -40.3525804
+               }
+            },
+            "location" : {
+               "lat" : -20.4752626,
+               "lng" : -40.3512886
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -20.4735631197085,
+                  "lng" : -40.3499741697085
+               },
+               "southwest" : {
+                  "lat" : -20.4762610802915,
+                  "lng" : -40.3526721302915
+               }
+            }
+         },
+         "place_id" : "EjFBdi4gRGVsIE1hciAtIEludGVybGFnb3MsIFZpbGEgVmVsaGEgLSBFUywgQnJhemlsIi4qLAoUChIJtX_jbQhBuAARqJ2yhYWhMyQSFAoSCXmM8RR1QbgAESWkRUTSzHlc",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

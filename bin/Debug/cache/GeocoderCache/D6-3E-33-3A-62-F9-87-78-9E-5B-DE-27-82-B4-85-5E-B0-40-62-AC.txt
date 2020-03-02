@@ -1,0 +1,70 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Estrada Sítio Pôrto",
+               "short_name" : "Estr. Sítio Pôrto",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sítio Porto",
+               "short_name" : "Sítio Porto",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Itabaiana",
+               "short_name" : "Itabaiana",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Sergipe",
+               "short_name" : "SE",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "49500-000",
+               "short_name" : "49500-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Estr. Sítio Pôrto - Sítio Porto, Itabaiana - SE, 49500-000, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -10.6750868,
+                  "lng" : -37.4394566
+               },
+               "southwest" : {
+                  "lat" : -10.6765937,
+                  "lng" : -37.4434596
+               }
+            },
+            "location" : {
+               "lat" : -10.6763287,
+               "lng" : -37.4415416
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -10.6744912697085,
+                  "lng" : -37.4394566
+               },
+               "southwest" : {
+                  "lat" : -10.6771892302915,
+                  "lng" : -37.4434596
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJgR-xeHbwDwcR_0L-I8gG1G0",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

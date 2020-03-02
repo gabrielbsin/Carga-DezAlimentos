@@ -1,0 +1,58 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Conjunto Bela Morada",
+               "short_name" : "Conj. Bela Morada",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Aparecida de Goiânia",
+               "short_name" : "Aparecida de Goiânia",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "74920-760",
+               "short_name" : "74920-760",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Av. Pedro Luís Ribeiro, Qd. 01 Lt. 01, Chácara Santo Antônio, Gleba 04 A - Conj. Bela Morada, Aparecida de Goiânia - GO, 74920-760, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -16.770997,
+               "lng" : -49.27312800000001
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.76964801970849,
+                  "lng" : -49.27177901970851
+               },
+               "southwest" : {
+                  "lat" : -16.7723459802915,
+                  "lng" : -49.27447698029151
+               }
+            }
+         },
+         "place_id" : "ChIJG7HJDBj6XpMR5ETf2YToEeg",
+         "plus_code" : {
+            "compound_code" : "6PHG+JP Conjunto Bela Morada, Aparecida de Goiânia - State of Goiás, Brazil",
+            "global_code" : "58MG6PHG+JP"
+         },
+         "types" : [ "establishment", "point_of_interest", "university" ]
+      }
+   ],
+   "status" : "OK"
+}

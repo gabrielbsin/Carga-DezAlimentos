@@ -1,0 +1,70 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2604",
+               "short_name" : "2604",
+               "types" : [ "subpremise" ]
+            },
+            {
+               "long_name" : "223",
+               "short_name" : "223",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rua 11",
+               "short_name" : "R. 11",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Setor Oeste",
+               "short_name" : "St. Oeste",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Goiânia",
+               "short_name" : "Goiânia",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "74120-030",
+               "short_name" : "74120-030",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. 11, 223 - 2604 - St. Oeste, Goiânia - GO, 74120-030, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -16.686899,
+               "lng" : -49.2680188
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.6855500197085,
+                  "lng" : -49.2666698197085
+               },
+               "southwest" : {
+                  "lat" : -16.6882479802915,
+                  "lng" : -49.2693677802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ej8yNjA0IC0gUi4gMTEsIDIyMyAtIFN0LiBPZXN0ZSwgR29pw6JuaWEgLSBHTywgNzQxMjAtMDMwLCBCcmF6aWwiIBoeChYKFAoSCeftyEVD8V6TEYqE0QlEP9TiEgQyNjA0",
+         "types" : [ "subpremise" ]
+      }
+   ],
+   "status" : "OK"
+}

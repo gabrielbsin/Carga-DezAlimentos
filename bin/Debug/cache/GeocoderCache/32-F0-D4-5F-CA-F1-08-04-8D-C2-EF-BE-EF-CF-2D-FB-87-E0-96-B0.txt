@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ac 105 Conjunto B e",
+               "short_name" : "Ac 105 Conjunto B e",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Maria",
+               "short_name" : "Santa Maria",
+               "types" : [ "administrative_area_level_4", "political" ]
+            },
+            {
+               "long_name" : "Brasília",
+               "short_name" : "Brasília",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Distrito Federal",
+               "short_name" : "DF",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Ac 105 Conjunto B e - Santa Maria, Brasília - DF, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -16.029337,
+                  "lng" : -48.0350987
+               },
+               "southwest" : {
+                  "lat" : -16.0299425,
+                  "lng" : -48.0361057
+               }
+            },
+            "location" : {
+               "lat" : -16.0295925,
+               "lng" : -48.0356736
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.0282907697085,
+                  "lng" : -48.0342532197085
+               },
+               "southwest" : {
+                  "lat" : -16.0309887302915,
+                  "lng" : -48.0369511802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJPQLRLPGAWZMRhd6nt8QSQQQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,87 @@
+ public double getLatitudeCidade(string Cidade)
+        {
+            MySqlConnection conexao = new MySqlConnection("SERVER=" + Properties.Settings.Default.host_mysql + "; DATABASE=cargadez; UID=" + Properties.Settings.Default.user_mysql + "; pwd=" + Properties.Settings.Default.pass_mysql + "");
+            double latitudeCidade = 0.0;
+            try
+            {
+                conexao.Open();
+                MySqlCommand comando = new MySqlCommand("SELECT * FROM CARGADEZ_CIDADES WHERE CIDADE='" + Cidade + "'", conexao);
+                MySqlDataReader drCommand = comando.ExecuteReader();
+
+                if (drCommand.HasRows)
+                {
+                    while (drCommand.Read())
+                    {
+                        if (drCommand["LATITUDE"].ToString() != "0")
+                        {
+                            latitudeCidade = Convert.ToDouble(drCommand["LATITUDE"]);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return latitudeCidade;
+        }
+
+        public double getLongitudeCidade(string Cidade)
+        {
+            MySqlConnection conexao = new MySqlConnection("SERVER=" + Properties.Settings.Default.host_mysql + "; DATABASE=cargadez; UID=" + Properties.Settings.Default.user_mysql + "; pwd=" + Properties.Settings.Default.pass_mysql + "");
+            double longitudeCidade = 0.0;
+            try
+            {
+                conexao.Open();
+                MySqlCommand comando = new MySqlCommand("SELECT * FROM CARGADEZ_CIDADES WHERE CIDADE='" + Cidade + "'", conexao);
+                MySqlDataReader drCommand = comando.ExecuteReader();
+
+                if (drCommand.HasRows)
+                {
+                    while (drCommand.Read())
+                    {
+                        if (drCommand["LONGITUDE"].ToString() != "0")
+                        {
+                            longitudeCidade = Convert.ToDouble(drCommand["LONGITUDE"]);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return longitudeCidade;
+        }
+
+        public double InsereLatLng(string cidade, double latitude, double longitude)
+        {
+            MySqlConnection conexao = new MySqlConnection("SERVER=" + Properties.Settings.Default.host_mysql + "; DATABASE=cargadez; UID=" + Properties.Settings.Default.user_mysql + "; pwd=" + Properties.Settings.Default.pass_mysql + "");
+            double longitudeCidade = 0.0;
+            try
+            {
+                conexao.Open();
+                MySqlCommand comando = new MySqlCommand("UPDATE CARGADEZ_CIDADES SET LATITUDE=@param, LONGITUDE=@param1 WHERE CIDADE='" + cidade + "'", conexao);
+                comando.Parameters.Add("@param", MySqlDbType.Float).Value = latitude;
+                comando.Parameters.Add("@param1", MySqlDbType.Float).Value = longitude;
+                comando.ExecuteNonQuery();
+                comando.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return longitudeCidade;
+        }

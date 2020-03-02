@@ -1,0 +1,68 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "S/n",
+               "short_name" : "S/n",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rod GO 476 km 13",
+               "short_name" : "Rod GO 476 km 13",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Zona Rural",
+               "short_name" : "Zona Rural",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Rod GO 476 km 13, S/n - Zona Rural, Morrinhos - GO, 75650-000, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -17.7711636,
+               "lng" : -49.127434
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.76981461970849,
+                  "lng" : -49.1260850197085
+               },
+               "southwest" : {
+                  "lat" : -17.7725125802915,
+                  "lng" : -49.1287829802915
+               }
+            }
+         },
+         "place_id" : "ChIJe_cZcmSToJQRoXkRZKU251A",
+         "plus_code" : {
+            "compound_code" : "6VHF+G2 Morrinhos, State of Goiás, Brazil",
+            "global_code" : "58JG6VHF+G2"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

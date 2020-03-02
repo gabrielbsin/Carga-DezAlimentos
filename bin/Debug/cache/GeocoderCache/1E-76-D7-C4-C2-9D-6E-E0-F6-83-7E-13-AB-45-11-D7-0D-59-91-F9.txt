@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rua Dom Pedro II",
+               "short_name" : "R. Dom Pedro II",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "R. Dom Pedro II, Morrinhos - GO, 75650-000, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -17.7299135,
+                  "lng" : -49.10160740000001
+               },
+               "southwest" : {
+                  "lat" : -17.7350702,
+                  "lng" : -49.1038974
+               }
+            },
+            "location" : {
+               "lat" : -17.7326023,
+               "lng" : -49.1028818
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.7299135,
+                  "lng" : -49.10140341970851
+               },
+               "southwest" : {
+                  "lat" : -17.7350702,
+                  "lng" : -49.1041013802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJqYUplmqUoJQRs6jWZT5INDI",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

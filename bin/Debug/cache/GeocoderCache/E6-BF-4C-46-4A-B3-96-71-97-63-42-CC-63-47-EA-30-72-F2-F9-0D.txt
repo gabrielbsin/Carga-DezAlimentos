@@ -1,0 +1,64 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rua 14",
+               "short_name" : "Rua 14",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Polo Empresarial de Goiás",
+               "short_name" : "Polo Empresarial de Goiás",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Aparecida de Goiânia",
+               "short_name" : "Aparecida de Goiânia",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Rua 14 - Polo Empresarial de Goiás, Aparecida de Goiânia - GO, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -16.7924612,
+                  "lng" : -49.25161730000001
+               },
+               "southwest" : {
+                  "lat" : -16.8000733,
+                  "lng" : -49.2624383
+               }
+            },
+            "location" : {
+               "lat" : -16.7974062,
+               "lng" : -49.2576597
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.7924612,
+                  "lng" : -49.25161730000001
+               },
+               "southwest" : {
+                  "lat" : -16.8000733,
+                  "lng" : -49.2624383
+               }
+            }
+         },
+         "place_id" : "EkdSdWEgMTQgLSBQb2xvIEVtcHJlc2FyaWFsIGRlIEdvacOhcywgQXBhcmVjaWRhIGRlIEdvacOibmlhIC0gR08sIEJyYXppbCIuKiwKFAoSCXE8sy6x-16TEXgxmfSw4rz0EhQKEgmzilTtt_tekxGlsBLY2GaYog",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

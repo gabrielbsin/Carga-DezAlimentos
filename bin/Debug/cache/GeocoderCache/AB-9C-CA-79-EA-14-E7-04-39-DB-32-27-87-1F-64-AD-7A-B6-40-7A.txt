@@ -1,0 +1,59 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Corumbá",
+               "short_name" : "Corumbá",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Corumbá",
+               "short_name" : "Corumbá",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "State of Mato Grosso do Sul",
+               "short_name" : "MS",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Corumbá, State of Mato Grosso do Sul, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -18.9949313,
+                  "lng" : -57.614124
+               },
+               "southwest" : {
+                  "lat" : -19.0618493,
+                  "lng" : -57.6781572
+               }
+            },
+            "location" : {
+               "lat" : -19.0081688,
+               "lng" : -57.65155029999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -18.9949313,
+                  "lng" : -57.614124
+               },
+               "southwest" : {
+                  "lat" : -19.0618493,
+                  "lng" : -57.6781572
+               }
+            }
+         },
+         "place_id" : "ChIJZXWOeXagh5MRtuq6vaLE5wU",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

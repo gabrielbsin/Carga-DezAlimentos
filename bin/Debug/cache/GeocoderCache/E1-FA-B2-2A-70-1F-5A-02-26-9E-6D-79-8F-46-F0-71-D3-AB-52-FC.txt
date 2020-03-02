@@ -1,0 +1,69 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rua 26-C",
+               "short_name" : "R. 26-C",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Setor Garavelo Residencial Park",
+               "short_name" : "St. Garavelo Res. Park",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Aparecida de Goiânia",
+               "short_name" : "Aparecida de Goiânia",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "74930",
+               "short_name" : "74930",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "R. 26-C - St. Garavelo Res. Park, Aparecida de Goiânia - GO, 74930, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -16.7719219,
+                  "lng" : -49.3372406
+               },
+               "southwest" : {
+                  "lat" : -16.773852,
+                  "lng" : -49.3393021
+               }
+            },
+            "location" : {
+               "lat" : -16.7734561,
+               "lng" : -49.3376563
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.7715379697085,
+                  "lng" : -49.3369223697085
+               },
+               "southwest" : {
+                  "lat" : -16.7742359302915,
+                  "lng" : -49.3396203302915
+               }
+            }
+         },
+         "place_id" : "ChIJQeR25Cb4XpMRx8vh_s42CQw",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

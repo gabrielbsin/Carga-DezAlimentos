@@ -1,0 +1,100 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "BR-153",
+               "short_name" : "BR-153",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "BR-153, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -5.4724999,
+                  "lng" : -47.9614096
+               },
+               "southwest" : {
+                  "lat" : -31.8772835,
+                  "lng" : -54.1720041
+               }
+            },
+            "location" : {
+               "lat" : -16.684442,
+               "lng" : -49.233885
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -16.5428174,
+                  "lng" : -49.0922604
+               },
+               "southwest" : {
+                  "lat" : -16.8260666,
+                  "lng" : -49.3755096
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJQ81bA9p-PJMRSVrbDf9T300",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chácara",
+               "short_name" : "Chácara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Chácara",
+               "short_name" : "Chácara",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Minas Gerais",
+               "short_name" : "MG",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "36110-000",
+               "short_name" : "36110-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Chácara, MG, 36110-000, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -21.6728417,
+               "lng" : -43.2193919
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -21.6624721,
+                  "lng" : -43.20338450000001
+               },
+               "southwest" : {
+                  "lat" : -21.6832105,
+                  "lng" : -43.2353993
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJtWjo6dZ9ogARIiUPxzJaJ4o",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

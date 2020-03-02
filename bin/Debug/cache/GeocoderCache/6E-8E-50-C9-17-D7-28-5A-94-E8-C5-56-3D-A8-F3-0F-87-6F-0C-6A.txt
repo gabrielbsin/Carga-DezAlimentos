@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "State of Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Morrinhos, State of Goiás, 75650-000, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -17.7097015,
+                  "lng" : -49.0797409
+               },
+               "southwest" : {
+                  "lat" : -17.7514589,
+                  "lng" : -49.1548338
+               }
+            },
+            "location" : {
+               "lat" : -17.7355785,
+               "lng" : -49.1117854
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.7097015,
+                  "lng" : -49.0797409
+               },
+               "southwest" : {
+                  "lat" : -17.7514589,
+                  "lng" : -49.1548338
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJMaXNWmuUoJQRqOB-HbwWzqs",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

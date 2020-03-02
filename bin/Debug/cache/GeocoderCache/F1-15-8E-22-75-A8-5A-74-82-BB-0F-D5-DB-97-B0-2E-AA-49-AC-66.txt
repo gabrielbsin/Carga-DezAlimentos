@@ -1,0 +1,65 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Avenida Eduardo Fróes da Mota",
+               "short_name" : "Av. Eduardo Fróes da Mota",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sobradinho",
+               "short_name" : "Sobradinho",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Feira de Santana",
+               "short_name" : "Feira de Santana",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Bahia",
+               "short_name" : "BA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Av. Eduardo Fróes da Mota - Sobradinho, Feira de Santana - BA, Brazil",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -12.2315182,
+                  "lng" : -38.9695751
+               },
+               "southwest" : {
+                  "lat" : -12.2353869,
+                  "lng" : -38.9774125
+               }
+            },
+            "location" : {
+               "lat" : -12.2331072,
+               "lng" : -38.9735435
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -12.2315182,
+                  "lng" : -38.9695751
+               },
+               "southwest" : {
+                  "lat" : -12.2353869,
+                  "lng" : -38.9774125
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EkZBdi4gRWR1YXJkbyBGcsOzZXMgZGEgTW90YSAtIFNvYnJhZGluaG8sIEZlaXJhIGRlIFNhbnRhbmEgLSBCQSwgQnJhemlsIi4qLAoUChIJEyr3w5A3FAcR_Ud4yKfu8XgSFAoSCTWfweAeOBQHEfR79wHPvkH_",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

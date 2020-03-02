@@ -1,0 +1,111 @@
+﻿{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "State of Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Morrinhos - State of Goiás, 75650-000, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -17.7339377,
+               "lng" : -49.1209449
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.7325887197085,
+                  "lng" : -49.11959591970849
+               },
+               "southwest" : {
+                  "lat" : -17.7352866802915,
+                  "lng" : -49.12229388029149
+               }
+            }
+         },
+         "place_id" : "ChIJO7md8gqUoJQRXWKD0BWG0IQ",
+         "plus_code" : {
+            "compound_code" : "7V8H+CJ Morrinhos, State of Goiás, Brazil",
+            "global_code" : "58JG7V8H+CJ"
+         },
+         "types" : [ "establishment", "local_government_office", "point_of_interest" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "147",
+               "short_name" : "147",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rua Dezenove",
+               "short_name" : "R. Dezenove",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Morrinhos",
+               "short_name" : "Morrinhos",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Goiás",
+               "short_name" : "GO",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Brazil",
+               "short_name" : "BR",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "75650-000",
+               "short_name" : "75650-000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "-225 - R. Dezenove, 147, Morrinhos - GO, 75650-000, Brazil",
+         "geometry" : {
+            "location" : {
+               "lat" : -17.7331461,
+               "lng" : -49.1176974
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -17.7317971197085,
+                  "lng" : -49.1163484197085
+               },
+               "southwest" : {
+                  "lat" : -17.7344950802915,
+                  "lng" : -49.1190463802915
+               }
+            }
+         },
+         "place_id" : "ChIJ8wbOhAuUoJQRDYe5FIderao",
+         "plus_code" : {
+            "compound_code" : "7V8J+PW Morrinhos, State of Goiás, Brazil",
+            "global_code" : "58JG7V8J+PW"
+         },
+         "types" : [ "church", "establishment", "place_of_worship", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}
